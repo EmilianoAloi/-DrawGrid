@@ -1,8 +1,26 @@
-# React + Vite
+# 🎨 DrawGrid - Dibuja en una cuadrícula interactiva 📐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DrawGrid es una aplicación web interactiva que permite pintar en una cuadrícula de celdas.
 
-Currently, two official plugins are available:
+## 🚀 Características:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✔ Activa/desactiva celdas con un clic  
+✔ Dibuja arrastrando el mouse  
+✔ Fácil de expandir con más funcionalidades
+
+## 🛠 Tecnología utilizada:
+
+- **React** ⚛️
+
+## 📷 Vista previa:
+
+Proximamente
+
+---
+
+📌 _Este proyecto se encuentra en desarrollo. Próximas funciones incluyen:_  
+✅ Selector de color para pintar las celdas  
+✅ Persistencia de dibujos con `localStorage`  
+✅ Guardado y carga de diseños
+
+---
