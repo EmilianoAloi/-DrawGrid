@@ -2,7 +2,7 @@ import Cell from "../Cell/Cell";
 import "./Grid.css";
 import { useState, useEffect } from "react";
 
-const columms = 200;
+const columms = 100;
 const cellSize = 20;
 
 const Grid = () => {

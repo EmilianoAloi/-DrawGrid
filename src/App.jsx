@@ -5,7 +5,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>GridDraw</h1>
       <Grid />
     </>
   );
