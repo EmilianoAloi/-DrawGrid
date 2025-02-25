@@ -1,0 +1,11 @@
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  background-color: white;
+  transition: background-color 0.0002s ease-in-out;
+}
+
+.cell.active {
+  background-color: black;
+}

@@ -35,7 +35,22 @@ const Grid = () => {
     }
   };
 
-  return <div>Grid</div>;
+  return (
+    <div
+      className="grid"
+      onMouseDown={() => setIsDrawing(true)}
+      onMouseUp={() => setIsDrawing(false)}
+    >
+      {cells.map((active, index) => (
+        <Cell
+          key={index}
+          active={active}
+          onClick={() => toggleCell(index)}
+          onMouseMove={() => handleMouseMove(index)}
+        />
+      ))}
+    </div>
+  );
 };
 
 export default Grid;
